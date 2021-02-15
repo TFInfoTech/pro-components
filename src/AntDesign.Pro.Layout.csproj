@@ -6,16 +6,20 @@
     <OutputType>Library</OutputType>
     <IsPackable>true</IsPackable>
     <RazorLangVersion>3.0</RazorLangVersion>
-    <Description>Ant Design Pro components for Blazor</Description>
-    <PackageProjectUrl>https://github.com/ant-design-blazor/pro-layout</PackageProjectUrl>
+    <Description>Ant Design Pro components for Blazor
+little update base on the main release</Description>
+    <PackageProjectUrl>https://github.com/TFInfoTech/pro-components</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ant-design-blazor/pro-layout</RepositoryUrl>
     <PackageTags>blazor,ant-design,pro,layout,components</PackageTags>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Copyright>James Yeung</Copyright>
-    <Authors>James Yeung</Authors>
+    <Copyright>TF Tech</Copyright>
+    <Authors>Mo Tianli</Authors>
     <PackageIcon>logo.png</PackageIcon>
+    <Company>TF Tech</Company>
+    <Version>0.1.0.1</Version>
+    <AssemblyVersion>0.1.0.1</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
