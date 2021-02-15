@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.Extensions.Logging;
@@ -93,6 +94,12 @@ namespace AntDesign.Pro.Layout
         private void HandleCollapse(bool collapsed)
         {
             Collapsed = collapsed;
+            SetStyle();
+        }
+
+        private void OnBreakpoint(BreakpointType breakpoint)
+        {
+            Collapsed = breakpoint.IsIn(BreakpointType.Sm, BreakpointType.Xs, BreakpointType.Md);
             SetStyle();
         }
     }
